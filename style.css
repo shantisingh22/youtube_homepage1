@@ -917,7 +917,16 @@
     gap: 15px;
     justify-content: space-between;
 }
-
+@media (max-width: 576px) {
+    .img-row-third {
+        gap: 10px;
+    }
+}
+@media (min-width: 576px) and (max-width: 1080px) {
+    .img-row-third {
+        gap: 13px;
+    }
+}
 .img-row-forth {
     width: 100%;
     display: flex;
