@@ -160,7 +160,6 @@
     }
 }
 
-
 .textbox {
     width: 72px;
     font-size: 16px;
@@ -416,7 +415,7 @@
 
 .category-left {
     width: 240px;
-    padding: 12px;
+    padding: 16px 12px;
 }
 
 @media (max-width: 575px) {
@@ -475,6 +474,117 @@
     height: 40px;
 }
 
+.homebox {
+    background-color: gray;
+    border-radius: 10px;
+    display: flex;
+    width: 190px;
+    height: 33px;
+    margin-bottom: 10px;
+}
+
+.homeimages-box1{
+    width: 60px;
+}
+.homeimages-box1 img {
+    width: 24px;
+    height: 24px;
+}
+.hometittlebox1{
+    width: 132px;
+    height: 20px;
+    margin-top: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+.homebox2 {
+    border-radius: 10px;
+    display: flex;
+    display: none;
+    width: 190px;
+    height: 33px;
+    margin-bottom: 10px;
+}
+
+.images-box2{
+    width: 60px;
+}
+.images-box2 img {
+    width: 24px;
+    height: 24px;
+}
+.hometittlebox2{
+    width: 132px;
+    height: 20px;
+    margin-top: 5px;
+    color: white;
+    font-size: 14px;
+}
+@media (max-width: 575px) {
+    .homebox2 {
+        border-radius: 10px;
+        display: flex;
+        width: 40px;
+        flex-direction: column;
+        height: 55px;
+        margin-bottom: 10px;
+    }
+    .images-box2{
+        width: 40px;
+    }
+    .images-box2 img {
+        width: 22px;
+        height: 20px;
+    }
+    .hometittlebox2{
+        width: 41px;
+        height: 20px;
+        margin-top: 5px;
+        color: white;
+        font-size: 8px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1080px) {
+    .homebox2 {
+        border-radius: 10px;
+        display: flex;
+        width: 56px;
+        height: 58px;
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+
+    .images-box2{
+        width: 37px;
+    }
+    .images-box2 img {
+        width: 24px;
+        height: 24px;
+    }
+    .hometittlebox2{
+        width: 50px;
+        height: 20px;
+        margin-top: 5px;
+        color: white;
+        font-size: 14px;
+    }
+}
+
+
+@media (max-width: 575px) {
+    .homebox{
+        display:none;
+    }
+}
+@media (min-width: 576px) and (max-width: 1080px) {
+    .homebox{
+        display:none;
+    }
+
+}
+
 @media (max-width: 575px) {
     .section-tittle-col1 {
         border: solid red 1px;
@@ -496,6 +606,7 @@
 .images-box1 {
     width: 60px;
 }
+
 @media (max-width: 575px) {
     
 .images-box1 {
@@ -523,6 +634,7 @@
     color: white;
     font-size: 14px;
 }
+
 
 @media (max-width: 575px) {
     .tittlebox1 {
