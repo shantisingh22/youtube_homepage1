@@ -332,7 +332,7 @@
 
 .category-left {
     width: 240px;
-    padding: 16px 12px;
+    padding: 12px;
     background-color: black;
 }
 
@@ -463,7 +463,7 @@
         display: flex;
         width: 40px;
         flex-direction: column;
-        height: 45px;
+
     }
     .images-box2{
         width: 40px;
@@ -489,9 +489,7 @@
         border-radius: 10px;
         display: flex;
         width: 56px;
-        height: 58px;
         flex-direction: column;
-        margin-bottom: 10px;
     }
 
     .images-box2{
@@ -529,18 +527,19 @@
 @media (max-width: 575px) {
     .section-tittle-col1 {
         width: 45px;
-        height: 55px;
+        height: 65px;
         border: solid 1px;
         flex-direction: column;
+        padding: 16px 0px 14px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 1080px) {
     .section-tittle-col1 {
         flex-direction: column;
-        width: 90px;
-        height: 80px;
-        padding: 14px 0px 14px;
+        width: 55px;
+        height: 75px;
+        padding: 16px 0px 14px;
     }
 }
 
@@ -599,7 +598,8 @@
 @media (min-width: 576px) and (max-width: 1080px) {
     .tittlebox1 {
         margin-top:5px;
-        width: 45px;
+        width: 55px;
+        text-align: center;
     }
 
 }
@@ -796,20 +796,21 @@
 @media (max-width: 576px) {
     .category-right {
         width: 100%;
-        padding: 0px 12px 12px 0px;
+        padding: 0px 12px 12px 12px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 1080px) {
     .category-right {
         width: 100%;
-        padding: 0px 16px 16px 0px;
+        padding: 0px 12px 12px 12px;
     }
 }
 
 .category-grid-row {
     margin: 12px 0px; 
     display: flex;
+    gap:10px;
     width: 100%;
     justify-content: space-between;
 }
@@ -925,6 +926,22 @@
     gap: 15px;
     padding: 24px 0px 24px 0px;
 }
+@media (max-width: 576px) {
+    .image-container {
+        display: flex;
+        gap: 10px;
+        padding: 12px 0px 12px 0px;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1080px) {
+    .image-container {
+        display: flex;
+        gap: 13px;
+        padding: 12px 0px 12px 0px;
+    }
+    
+}
 
 .img-row-first {
     width: 100%;
@@ -974,6 +991,7 @@
 @media (max-width: 576px) {
     .image-item {
         width: 100%;
+        height:237px;
         margin-top: 0px;
     }
 }
@@ -995,7 +1013,6 @@
 @media (max-width: 576px) {
     .image-item img {
         width: 100%;
-        height: 150px;
     }
 
 }
@@ -1003,7 +1020,6 @@
 @media (min-width: 576px) and (max-width: 1080px) {
     .image-item img {
         width: 205;
-        height: 215px;
     }
 
 }
@@ -1015,7 +1031,6 @@
 }
 
 .img-row-third {
-    /* display: flex; */
     width: 100%;
     gap: 15px;
     justify-content: space-between;
@@ -1024,9 +1039,17 @@
     .img-row-third {
         gap: 10px;
     }
+    .img-container_two {
+        display: flex;
+        gap: 10px;
+    }
 }
 @media (min-width: 576px) and (max-width: 1080px) {
     .img-row-third {
+        gap: 10px;
+    }
+    .img-container_two {
+        display: flex;
         gap: 10px;
     }
 }
@@ -1047,13 +1070,13 @@
 }
 
 .img-item-second-row {
-    width: 291px;
+    width: 239px;
     height: 341px;
 }
 @media (max-width: 576px) {
     .img-item-second-row {
         width: 100%;
-        height: 190px;
+        height: 350px;
     }
 }
 @media (min-width: 576px) and (max-width: 1080px) {
@@ -1072,7 +1095,7 @@
 @media (max-width: 576px) {
     .img-item-second-row img {
         width: 100%;
-        height: 190px;
+        height: 100%;
         border-radius: 10px;
         object-fit: cover;
     }
@@ -1103,7 +1126,7 @@
 .image-list-card {
     display: flex;
     align-items: center;
-    width: 291px;
+    width: 239px;
     margin-top: 12px;
 }
 
@@ -1119,7 +1142,24 @@
         width: 100%;
     }
 }
+.image-list-card1 {
+    display: flex;
+    align-items: center;
+    width: 291px;
+    margin-top: 12px;
+}
+@media (max-width: 576px) {
+    .image-list-card1 {
+        width: 100%;
+        margin-top: 10px;
+    }
+}
 
+@media (min-width: 576px) and (max-width: 1080px) {
+    .image-list-card1{
+        width: 100%;
+    }
+}
 .image-information {
     display: flex;
     width: 230px;    
@@ -1295,7 +1335,6 @@
         height: auto;
         display: flex;
         justify-content: space-between;
-        margin-top: 12px;
     }
 }
 
@@ -1314,13 +1353,13 @@
 @media (min-width: 576px) and (max-width: 1080px) {
     .icon-short {
         width: auto;
+        height: 25px;
         display: flex;
     }
 }
 
 .icon-short img {
     width: 25px;
-    height: 25px;
     margin: 5px 0px;
 }
 
