@@ -1584,9 +1584,9 @@
 
 
 
-.image-container {
+.image-container-row {
     display: flex;
-    gap: 10px;
+    gap: 15px;
 }
 
 .image-row-box {
@@ -1647,7 +1647,7 @@
 }
 
 @media (min-width: 576px) and (max-width: 1080px) {
-    .image-container2 {
+    .image-container-row {
         gap: 15px;
         margin-top: 20px;
     }
@@ -1682,8 +1682,9 @@
 }
 
 @media (max-width: 575px) {
-    .image-container2 {
+    .image-container-row {
         margin-top: 20px;
+        gap:10px;
     }
 
     .image-row-box {
