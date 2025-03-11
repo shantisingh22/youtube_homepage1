@@ -3,8 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* background-color: black; */
-
 }
 
 .main-container-box {
@@ -429,7 +427,6 @@
     padding: 4px 12px;
 }
 
-/* Image Box */
 .homeimages-box1 {
     width: 60px;
     background-color: gray;
@@ -444,7 +441,6 @@
     background-color: gray;
 }
 
-/* Title Box */
 .hometittlebox1 {
     width: 125px;
     padding: 8px 0px;
@@ -1321,7 +1317,7 @@
 
 @media (max-width: 575px) {
     .options-menubox {
-        margin-bottom: 25px;
+        margin-bottom: 37px;
     }
 }
 
@@ -1337,7 +1333,7 @@
 
 @media (max-width: 575px) {
     .options-menubox img {
-        width: 27px;
+        width: 26px;
     }
 }
 
@@ -1486,7 +1482,7 @@
     margin: auto;
     width: 1800px;
     background-color: #181818;
-    padding: 24px;
+    padding: 24px 0px;
     height: auto;
 }
 
@@ -1538,7 +1534,7 @@
 
     .footer,
     .footer1 {
-        font-size: 9px;
+        font-size: 10px;
         font-weight: 500;
         color: white;
     }
@@ -1564,7 +1560,7 @@
 
 @media (max-width: 575px) {
     .footer-bottom {
-        font-size: 8px;
+        font-size: 10px;
         color: white;
     }
 }
@@ -1598,6 +1594,8 @@
 
 .image-block img {
     width: 100%;
+    height:100%;
+    object-fit: cover;
 }
 
 .image-details {
@@ -1646,7 +1644,6 @@
     width: 30px;
 }
 
-/* Tablet View (576px - 1080px) */
 @media (min-width: 576px) and (max-width: 1080px) {
     .image-container {
         gap: 15px;
@@ -1667,9 +1664,21 @@
     .info-section {
         width: 100%;
     }
+
+    .menu-options {
+        margin-bottom: 20px;
+    }
+
+    .menu-options img {
+        width: 30px;
+    }
+
+    .thumbnail-box img {
+        width: 30px;
+        margin-bottom: 23px;
+    }
 }
 
-/* Mobile View (max-width: 575px) */
 @media (max-width: 575px) {
     .image-container {
         margin-top: 20px;
@@ -1692,15 +1701,22 @@
 
     .thumbnail-box img {
         width: 20px;
+        margin-bottom: 35px;
     }
-
-    /* Mobile के लिए Font Size */
+    .menu-options {
+        margin-bottom: 26px;
+    }
+    .menu-options img {
+        margin-bottom: 0px;
+        width:26px;
+    }
     .video-title {
         font-size: 14px;
     }
 
     .channel-info {
         font-size: 13px;
+        padding: 5px 0px;
     }
 
     .views-count {
