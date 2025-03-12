@@ -373,18 +373,18 @@
     }
 }
 
-.sidbar-section {
+.sidebar-section {
     width: 216px;
 }
 
 @media (max-width: 575px) {
-    .sidbar-section {
+    .sidebar-section {
         width: 50px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 1080px) {
-    .sidbar-section {
+    .sidebar-section {
         width: 90px;
     }
 }
@@ -769,12 +769,12 @@
     font-size: 14px;
 }
 
-.subscribe-icone {
+.subscribe-icon {
     height: 25px;
     width: 25px;
 }
 
-.subscribe-icone img {
+.subscribe-icon img {
     width: 100%;
 }
 
