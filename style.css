@@ -361,7 +361,7 @@
 
 @media (max-width: 575px) {
     .category-left {
-        width: 55px;
+        width: 60px;
         padding: 6px;
     }
 }
@@ -553,7 +553,7 @@
 
 @media (max-width: 575px) {
     .section-tittle-col1 {
-        width: 45px;
+        width: 48px;
         height: 65px;
         border: solid 1px;
         flex-direction: column;
@@ -617,7 +617,7 @@
 
 @media (max-width: 575px) {
     .tittlebox1 {
-        width: 40px;
+        width: 60px;
         font-size: 10px;
         text-align: center;
     }
@@ -626,7 +626,7 @@
 @media (min-width: 576px) and (max-width: 1080px) {
     .tittlebox1 {
         margin-top: 5px;
-        width: 55px;
+        width: 58px;
         text-align: center;
     }
 
@@ -1243,6 +1243,9 @@
     .image-thumbnail1 img {
         display: none;
     }
+    .image-thumbnail img {
+        margin-bottom: 27px;
+    }
 }
 
 
@@ -1314,7 +1317,7 @@
 }
 
 .options-menubox1 {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 575px) {
@@ -1325,7 +1328,7 @@
 
 @media (min-width: 576px) and (max-width: 1080px) {
     .options-menubox1 {
-        margin-bottom: 41px;
+        margin-bottom:20px;
     }
 }
 
@@ -1348,18 +1351,18 @@
 
 
 .options-menubox {
-    margin-bottom: 45px;
+    margin-bottom: 30px;
 }
 
 @media (max-width: 575px) {
     .options-menubox {
-        margin-bottom: 45px;
+        margin-bottom: 60px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 1080px) {
     .options-menubox {
-        margin-bottom: 41px;
+        margin-bottom: 20px;
     }
 }
 
@@ -1711,7 +1714,7 @@
 
     .thumbnail-box img {
         width: 30px;
-        margin-bottom: 23px;
+        margin-bottom: 24px;
     }
 }
 
@@ -1738,10 +1741,10 @@
 
     .thumbnail-box img {
         width: 20px;
-        margin-bottom: 35px;
+        margin-bottom: 48px;
     }
     .menu-options {
-        margin-bottom: 26px;
+        margin-bottom: 42px;
     }
     .menu-options img {
         margin-bottom: 0px;
