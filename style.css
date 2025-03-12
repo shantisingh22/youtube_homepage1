@@ -118,8 +118,8 @@
 
 @media (max-width: 575px) {
     .logo-box {
-        width: 122px;
-        margin: 0px;
+        width: 85px;
+        margin-left: 10px;
     }
 }
 
