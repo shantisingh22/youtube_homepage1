@@ -1518,14 +1518,12 @@
 
 /* ////footer//// */
 .footer-container-box {
-    margin: auto;
-    width: 1800px;
+    width: 100%;
     background-color: #181818;
     padding: 24px 0px;
-    height: auto;
 }
 
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
     .footer-container-box {
         width: 100%;
     }
@@ -1535,7 +1533,7 @@
     .footer-container-box {
         width: 100%;
     }
-}
+} */
 
 .footer-box {
     display: flex;
