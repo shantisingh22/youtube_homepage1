@@ -28,7 +28,7 @@ To get a local copy up and running, follow these steps:
 │── index.html  (Main HTML file)
 │── style.css   (CSS file for styling)
 │── all images/     (Images, icons, etc.)
-│── README.md   (Project documentation)
+│── README.md (Project documentation)
 
 
 ## Technologies Used
