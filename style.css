@@ -1533,7 +1533,6 @@
     }
 }
 
-/* ////footer//// */
 .footer-container-box {
     width: 100%;
     background-color: #181818;
@@ -1817,7 +1816,6 @@
 }
 
 
-/* ///extra media query/// */
 @media (min-width: 1081px) and (max-width: 1152px) {
     .img-row-second1 {
         display: block;
