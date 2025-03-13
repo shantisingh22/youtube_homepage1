@@ -12,7 +12,7 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository from GitHub:
 
-    git clone https://github.com/your-username/your-repo-name.git
+    git clone https://github.com/shantisingh22/youtube_homepage_ui
     
 2. Navigate to the project folder:
 
@@ -42,11 +42,10 @@ To get a local copy up and running, follow these steps:
 - Clean aur simple UI
 - Layout design using Flexbox
 
-## Demo link
+
+## Live Demo
 You can check out the live demoof the app.
-
-
-
+     [Live Demo]-: youtube-homepage-ui.vercel.app
 
 
 
