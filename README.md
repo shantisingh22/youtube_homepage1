@@ -1,6 +1,6 @@
 # Project name
 
-Youtube homepage clone
+Youtube Homepage Clone
 
 # Discription
 
@@ -24,17 +24,20 @@ To get a local copy up and running, follow these steps:
    
 # Folder Structure
   
-      your-repo-name/ 
-    │── index.html 
-    │── style.css 
-    └── README.md 
+  project-folder/
+│── index.html  (Main HTML file)
+│── style.css   (CSS file for styling)
+│── all images/     (Images, icons, etc.)
+│── README.md   (Project documentation)
+
 
 ## Technologies Used
 
-- CSS
-- HTML
-- flexbox
-- media query
+- HTML (For structure)
+- CSS (For styling)
+- Flexbox ( For Layout)
+- Media Queries (Responsive design)
+
 
 ## Features
 
