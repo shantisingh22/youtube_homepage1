@@ -43,8 +43,8 @@ To get a local copy up and running, follow these steps:
 - Layout design using Flexbox
 
 
-## Live Demo
-You can check out the live the app. Link- youtube-homepage-ui.vercel.app
+## Live Demo  
+You can check out the live the app. Link- [youtube-homepage-ui](https://youtube-homepage-ui.vercel.app)
 
 
 
