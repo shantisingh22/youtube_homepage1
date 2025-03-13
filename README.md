@@ -44,8 +44,7 @@ To get a local copy up and running, follow these steps:
 
 
 ## Live Demo
-You can check out the live demoof the app.
-     [Live Demo]-: youtube-homepage-ui.vercel.app
+You can check out the live the app. Link- youtube-homepage-ui.vercel.app
 
 
 
