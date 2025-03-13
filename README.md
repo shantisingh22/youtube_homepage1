@@ -1,4 +1,4 @@
-# project name
+# Project name
 
 Youtube homepage clone
 
