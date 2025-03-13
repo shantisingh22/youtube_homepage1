@@ -23,7 +23,7 @@ To get a local copy up and running, follow these steps:
 project-folder/
 │── index.html  (Main HTML file)
 │── style.css   (CSS file for styling)
-│── assets/     (Images, icons, etc.)
+│── all images/     (Images, icons)
 │── README.md   (Project documentation)
 
 
