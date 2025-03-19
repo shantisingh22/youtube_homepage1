@@ -148,6 +148,7 @@
 @media (max-width: 575px) {
     .textbox {
         font-size: 16px;
+        display:none;
 
     }
 }
@@ -640,6 +641,56 @@
     }
 
 }
+
+.Subscriptions-tittlebox1{
+    width: 132px;
+    height: 20px;
+    margin-top: 5px;
+    color: white;
+    font-size: 14px;
+}
+
+
+@media (max-width: 575px) {
+    .Subscriptions-tittlebox1 {
+        width: 60px;
+        font-size: 10px;
+        text-align: center;
+        display:none;
+    }
+}
+
+@media (min-width: 576px) and (max-width: 1080px) {
+    .Subscriptions-tittlebox1 {
+        margin-top: 5px;
+        width: 58px;
+        text-align: center;
+    }
+
+}
+
+.Subscriptions-box12{
+    display:none;
+    text-align: center;
+    margin-top:5px;
+}
+
+@media(max-width:575px){
+    .Subscriptions-box12{
+        width: 35px;
+        height:20px;
+        color:white;
+        font-size:10px;
+        display: block;
+    }
+}
+
+@media(min-width:576px) and (max-width:1080px){
+    .Subscriptions-box12{
+        display:none;
+    }   
+}
+
 
 .underline {
     border: solid gray 1px;
