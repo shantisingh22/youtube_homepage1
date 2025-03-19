@@ -1,6 +1,6 @@
-# project name
+# Project name
 
-Youtube homepage clone
+Youtube Homepage Clone
 
 # Discription
 
@@ -9,32 +9,36 @@ Welcome to the YouTube Home Page Clone, This is a simple YouTube home page built
 # Instalation
 
 To get a local copy up and running, follow these steps:
-
 1. Clone the repository from GitHub:
 
     git clone https://github.com/shantisingh22/youtube_homepage_ui
     
 2. Navigate to the project folder:
 
+    git clone https://github.com/shantisingh22/youtube_homepage_ui
+   
+3. Navigate to the project folder:
     cd your-repo-name
-    
-3. Open the index.html file in a browser:
-
-   Mac/Linux: Right-click → Open With → Select a browser
+   
+4. Open the index.html file in a browser:
+   Right-click → Open With → Select a browser
    
 # Folder Structure
   
-      your-repo-name/ 
-    │── index.html 
-    │── style.css 
-    └── README.md 
+project-folder/
+│── index.html  (Main HTML file)
+│── style.css   (CSS file for styling)
+│── all images/     (Images, icons)
+│── README.md   (Project documentation)
+
 
 ## Technologies Used
 
-- CSS
-- HTML
-- flexbox
-- media query
+- HTML (For structure)
+- CSS (For styling)
+- Flexbox ( For Layout)
+- Media Queries (Responsive design)
+
 
 ## Features
 
