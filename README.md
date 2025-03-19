@@ -1,6 +1,6 @@
 # Project name
 
-Youtube Homepage Clone
+Youtube Homepage ui
 
 # Discription
 
