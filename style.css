@@ -1061,6 +1061,10 @@
     .category-item-col1 {
         display: none;
     }
+    .category-item-col {
+        padding: 0px 12px;
+        font-size: 14px;
+    }
 }
 
 
@@ -1096,7 +1100,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
     padding: 24px 0px 52px 0px;
 }
 
@@ -1159,7 +1163,7 @@
 /* ////second row//// */
 .img-container_two {
     display: flex;
-    gap: 15px;
+    gap: 16px;
 }
 
 .img-row-third1,
@@ -1622,7 +1626,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 10px;
+    gap: 16px;
     padding: 24px 0px 52px 0px;
 }
 
