@@ -92,7 +92,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        margin-bottom: 5px;
     }
 
     .menu-icon img {
@@ -2229,5 +2228,24 @@
     .img-row-forth3 {
         display: block;
     }
+
+    .img-row-first,
+    .img-row-first,
+    .img-row-second1,
+    .img-row-second1,
+    .img-row-second3{
+        width:20%;
+    }
+
+    .img-row-third1,
+    .img-row-third2,
+    .img-row-third3,
+    .img-row-forth1,
+    .img-row-forth2,
+    .img-row-forth3,
+    .img-row-forth4{
+        width:14.28%;
+    }
+
 
 }
