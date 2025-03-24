@@ -1195,10 +1195,9 @@
 
     width: 100%;
     object-fit: cover;
+    border-radius: 10px;
     aspect-ratio: 242/429;
 }
-
-
 
 
 .img-row-forth4 {
