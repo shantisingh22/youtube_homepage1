@@ -202,7 +202,7 @@
 
 .micro-button img {
     width: 23.99px;
-    height: 24px;
+    height: 22px;
 }
 
 @media (max-width: 575px) {
@@ -215,19 +215,18 @@
     .search-bar-row {
         width: 100%;
         margin: 0px;
-        height: 30px;
     }
 
     .search-barrow-input {
         margin: 0px;
         width: 100%;
         font-size: 8px;
-        height: 25px;
+        height: 34px;
     }
 
     .search-button {
         width: 35px;
-        height: 25px;
+        height: 34px;
     }
 
     .search-button img {
@@ -1032,8 +1031,6 @@
     }
 
 }
-
-
 
 .category-item-all {
     width: 40px;
