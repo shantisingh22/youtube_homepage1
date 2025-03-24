@@ -75,6 +75,18 @@
     margin-bottom: 4px;
 }
 
+@media (max-width: 575px) {
+    .menu-baar {
+        width: 18px;
+        margin-bottom: 4px;
+    }
+
+    .menu-icon{
+        padding: 11px 8px 11px 0px;
+    }
+
+}
+
 @media (min-width: 576px) and (max-width: 1080px) {
     .menu-icon {
         display: flex;
@@ -126,6 +138,13 @@
 .youtubelogo img {
     width: 93px;
     height: 27px;
+}
+
+@media (max-width: 575px) {
+    .youtubelogo img {
+        width: 90px;
+        height: 22px;
+    }
 }
 
 .textbox {
@@ -233,7 +252,7 @@
     }
 
     .micro-button img {
-        width: 24px;
+        width: 22px;
         height: 22px;
     }
 
@@ -357,7 +376,8 @@
     }
 
     .arrow-icon img {
-        width: 24px;
+        width: 22px;
+        height: 22px;
         margin-top: 2px;
     }
 
@@ -1285,6 +1305,12 @@
     padding-top: 13px;
 }
 
+@media (max-width: 575px) {
+    .image-list-card {
+        padding-top: 8px;
+    }
+}
+
 @media (min-width: 576px) and (max-width: 1080px) {
     .image-list-card {
         width: 100%;
@@ -1296,6 +1322,13 @@
     align-items: center;
     margin-top: 12px;
 }
+
+@media (max-width: 575px) {
+    .image-list-card1 {
+        margin-top: 8px;
+    }
+}
+
 
 .image-information {
     display: flex;
