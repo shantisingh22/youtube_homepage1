@@ -504,7 +504,6 @@
     .sidebar-item-you-section {
         width: 48px;
         height: 65px;
-        border: solid 1px;
         flex-direction: column;
         padding: 16px 0px 14px;
         display: block;
@@ -782,9 +781,8 @@
 
 @media (max-width: 575px) {
     .Subscriptions-tittlebox1 {
-        width: 38px;
+        width: 41px;
         font-size: 6px;
-        text-align: center;
     }
 }
 
@@ -2251,6 +2249,10 @@
     .img-row-forth1,
     .img-row-forth2 {
         width: 20%;
+    }
+
+    .category-item-col{
+        display: none;
     }
 }
 
