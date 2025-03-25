@@ -1049,6 +1049,7 @@
     .category-item-all {
         font-size: 5px;
         width:auto;
+        padding:0px 6px;
     }
 
 }
@@ -1118,7 +1119,7 @@
 @media (max-width: 575px) {
     .category-item-col2 {
         font-size: 5px;
-        padding: 0px 12px;
+        padding: 0px 6px;
     }
 }
 
@@ -1970,6 +1971,7 @@
     .img-row-forth2,
     .img-row-forth3,
     .img-row-forth4,
+    .category-item-col,
     .category-item-col1 {
         display: none;
     }
@@ -2100,6 +2102,7 @@
     .img-row-second3,
     .img-row-forth3,
     .img-row-forth4,
+    .category-item-col,
     .category-item-col1 {
         display: none;
     }
