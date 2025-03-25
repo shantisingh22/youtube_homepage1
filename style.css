@@ -90,13 +90,13 @@
 @media (max-width: 575px) {
     .header_one {
         width: 100%;
-        padding: 8px 12px;
+        padding: 0px 12px;
     }
 }
 
 @media (max-width: 575px) {
     .menu-baar {
-        width: 10px;
+        width: 9px;
         margin-bottom: 1px;
     }
 
@@ -221,12 +221,12 @@
         margin: 0px;
         width: 100%;
         font-size: 8px;
-        height: 34px;
+        height: 28px;
     }
 
     .search-button {
         width: 35px;
-        height: 34px;
+        height: 28px;
     }
 
     .search-button img {
@@ -371,6 +371,7 @@
     .logo-icon,
     .bell-icon {
         width: 27px;
+        height:auto;
         padding: 5px;
     }
 }
@@ -831,7 +832,7 @@
 
     .arrow-image-box img {
         width: 12px;
-        height: 8px;
+        height: 8px !important;
         margin-top: 8px;
     }
 }
@@ -1196,6 +1197,7 @@
 .img-container_two {
     display: flex;
     gap: 13px;
+    padding-bottom: 24px;
 }
 
 .img-row-third1,
@@ -1227,6 +1229,7 @@
         display: flex;
         gap: 10px;
         margin-top: 0px;
+        padding:0px;
     }
 }
 
@@ -1547,7 +1550,7 @@
 @media (max-width: 575px) {
     .icon-div {
         width: 100%;
-        margin: 0px 0px 8px 4px;
+        margin: 0px 0px 8px 0px;
     }
 }
 
@@ -1563,6 +1566,8 @@
 .icon-short {
     width: auto;
     display: flex;
+    align-items: center;
+
 }
 
 @media (max-width: 575px) {
@@ -1584,28 +1589,27 @@
 .icon-short img {
     width: 28px;
     height: 25px;
-    margin: 11px 6px 5px 0px;
-
+    margin: 0px 6px 0px 8px;
 }
 
 @media (max-width: 575px) {
     .icon-short img {
         width: 13px;
         height: 11px;
-        margin: 0px 6px 0px 0px;
+        margin: 0px 6px 0px 8px;
     }
 }
 
 @media (min-width: 576px) and (max-width: 1080px) {
     .icon-short img {
         width: 28px;
-        margin: 8px 0px 5px 0px;
+        margin: 0px 6px 0px 8px;
     }
 }
 
 .text-box {
     width: auto;
-    margin: 12px 0px;
+    margin: 8px 0px;
     font-weight: bold;
     font-size: 20px;
     color: white;
@@ -1613,37 +1617,38 @@
 
 @media (max-width: 575px) {
     .text-box {
-        width: auto;
-        margin: 0px 0px;
-        font-weight: bold;
         font-size: 8px;
-        color: white;
     }
 }
 
 @media (min-width: 576px) and (max-width: 1080px) {
     .text-box {
-        margin: 12px 0px;
-        font-weight: bold;
         font-size: 20px;
-        color: white;
     }
 }
 
+.pointbox{
+    width: 40px;
+    height: 40px;
+    align-items: center;
+}
 
 .pointbox img {
-    width: 30px;
-    height: 30px;
+    width: 34px;
+    height: 40px;
+    align-items: center;
 }
 
 @media (max-width: 575px) {
     .pointbox img {
-        width: 11px;
-        height: 15px;
+        width: 20px;
+        height: 18px;
+        margin-top: 10px;
     }
 
-    .pointbox {
-        height: 17px;
+    .pointbox{
+        width: 20px;
+        height: 40px;
     }
 }
 
